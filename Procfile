@@ -1,1 +1,1 @@
-web: python ussd.py
+web: gunicorn ussd:app
